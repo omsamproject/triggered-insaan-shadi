@@ -30,6 +30,8 @@
 .date_num {
   font-size: 21px;
   color: rgba(28, 54, 83, 0.6);
+  text-align: center;
+    width: 50vw;
 }
 .flex {
   display: flex;
