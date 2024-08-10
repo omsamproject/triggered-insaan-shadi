@@ -87,6 +87,7 @@
 
   .date_num {
     font-size: 18px;
+    width: 82vw;
     text-align: center;
     color: rgba(28, 54, 83, 0.6);
   }
@@ -278,6 +279,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 100px;
+  margin-top: 20px;
 }
 .venue_place {
   font-weight: 500;
