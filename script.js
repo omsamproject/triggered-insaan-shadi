@@ -28,15 +28,6 @@ gsap.to(".met_title", {
     duration: 1.5,
     text: "HOW ME MET",
 });
-gsap.to(".met_desc", {
-    scrollTrigger: {
-        trigger: ".met_desc",
-        toggleActions: "restart none none none",
-        start: "top 400px",
-    },
-    duration: 3,
-    text: "This was a typical match arranged by two families. For this beautiful couple, their arranged marriage turned into love with lots of effort; constantly and every day. And where there you want to make these efforts without complaints.\“In my case, I knew she was going to be my wife but for some reason, I was too nervous to even look at her and I knew she was too.\” After getting approvals from both families, they constantly talked over the phone and met each other to learn more about each other\’s personalities.\“I have to tell you, I am the lucky one here, she\’s pretty, she\’s honest and most importantly she makes me feel comfortable around her. I don\’t know if I would have found someone perfect like her myself, feeling super grateful to my parents."
-});
 
 gsap.to(".event_1,.event_3", {
     scrollTrigger: {
