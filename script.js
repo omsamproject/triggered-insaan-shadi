@@ -81,6 +81,11 @@ gsap.to(".pic2,.pic3,.pic4", {
     opacity: 1,
     duration: 2,
 });
+gsap.to(".upper",{
+    opacity: 1,
+    duration: 1,
+    scale: 1,
+})
 
 document.querySelector(".phone_view").addEventListener("click", () => {
     const phoneUl = document.querySelector(".phone_ul");
