@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <title>Nischay & Ruchika geeting married!</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="icon" href="/favicon.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <nav>
+                <ul class="nav_ul">
+                    <li class="desktop_view">
+                        <a href="#upper">Home</a>
+                    </li>
+                    <li class="desktop_view">
+                        <a href="#met">How They Met</a>
+                    </li>
+                    <li class="phone_view">
+                        <svg class="lines_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40"
+                            height="40" color="#fff" fill="none">
+                            <path d="M4 5L20 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M4 12L20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M4 19L20 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                </ul>
+                <ul class="phone_ul" style="display: none;">
+                    <li class="phone_popup" style="display: none;">
+                        <a href="#upper">Home</a>
+                    </li>
+                    <li class="phone_popup" style="display: none;">
+                        <a href="#met">How They Met</a>
+                    </li>
+                        <a href="#venue">Venue</a>
+                    </li> -->
+                </ul>
+            </nav>
+        </div>
+        <div class="bg">
+            <div class="upper" id="upper">
+                <img src="output.png" class="logo" alt="logo">
+
+            </div>
+        </div>
+            <div class="date">
+                <div class="date_txt">
+                    MARRIED
+                </div>
+                <p class="date_num">
+                    The dates are 12<sup>th</sup> & 13<sup>th</sup> of November '24 and we would like you to be a part
+                    of this wonderful moment.
+                </p>
+            </div>
+        </div> -->
+        <div class="met" id="met">
+            <div class="met_title flex">
+                MET
+            </div>
+            <div class="met_box">
+                <div class="met_desc">
+                    They first met in 2018 through a common friend.
+                </div>
+
+            </div>
+        </div>
+        <div class="img_box">
+            <img src="img 2/boy.png" class="img1 img" alt="">
+            <img src="img 2/girl.png" class="img2 img" alt="">
+        </div>
+        <div class="counter" id="counter">
+            <h2>Number of Greetings</h2>
+            <div class="num">
+                <%= number %>
+            </div>
+            <button class="stylish-button" onclick="updateNumber()">
+                Greet
+            </button>
+        </div>
+        <div class="the-end">
+            <hr class="hr_1">
+            The End
+            <hr class="hr_2">
+        </div>
+</body>
+
+</html>
