@@ -1,15 +1,17 @@
 {
   "name": "wedding-invitation-website",
   "version": "1.0.0",
+  "description": "A modern wedding invitation website project.",
   "main": "server.js",
   "type": "module",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm i"
+    "install-dependencies": "npm install",
+    "build": "npm install && cleancss -o public/styles.min.css src/styles.css && uglifyjs src/script.js -o public/script.min.js"
   },
-  "author": "",
+  "author": "Sameer Patel",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.2",
