@@ -8,7 +8,7 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "install-dependencies": "npm install",
-    "build": "npm install && cleancss -o public/styles.min.css src/styles.css && uglifyjs src/script.js -o public/script.min.js"
+    "build": "npm install && cleancss -o public/styles.min.css public/style.css && uglifyjs public/script.js -o public/script.min.js"
   },
   "author": "Sameer Patel",
   "license": "ISC",
