@@ -122,7 +122,7 @@ window.onload = () => {
 }
 async function updateNumber() {
     try {
-        const response = await fetch('http://localhost:3000/greet', {
+        const response = await fetch('http://localhost:10000/greet', {
             method: 'POST'
         });
         const result = await response.json();
