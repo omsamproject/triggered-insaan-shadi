@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 import { MongoClient, ObjectId } from 'mongodb';
 
 const app = express();
-const port = process.env.PORT || 3000; // Change to a different port
+const port = 3000; // Change to a different port
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
