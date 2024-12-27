@@ -26,7 +26,7 @@ app.get('/', async (req, res) => {
     const collection = db.collection('greet');
     const user1 = await collection.findOne({ _id: new ObjectId('6767bd6e3536b9456b431c02') });
     const data = { number: user1.number };
-    res.render('index', data);
+    res.render('./views/index', data);
 });
 
 app.post('/greet', async (req, res) => {
