@@ -12,6 +12,7 @@ const __dirname = path.dirname(__filename);
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
 
 const client = new MongoClient('mongodb+srv://sameer:mongodbatlaspatel007@cluster0.4wk1s.mongodb.net/?retryWrites=true&w=majority');
 
